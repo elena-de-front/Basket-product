@@ -5,7 +5,6 @@ export class Basket {
 
 	constructor() {
 		this.#products = [];
-		console.log(localStorage.getItem("basket"));
 		const arrProducts = JSON.parse(localStorage.getItem("basket")) || [];
 
 		for (const product of arrProducts) {

@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 		document.body.append(layoutHome);
 		layoutBasket.replaceChildren(hBasket);
 
-		console.log("home");
+		
 	};
 
 	const linkBasket = document.querySelector(".basket_link");
@@ -82,6 +82,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 		document.body.append(layoutBasket);
 
-		console.log("basket");
+		
 	};
 });
